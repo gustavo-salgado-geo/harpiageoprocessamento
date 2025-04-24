@@ -12,7 +12,9 @@
         <nav>
             <ul>
                 <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#blog">Blog</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -26,21 +28,96 @@
     <section id="servicos">
         <h2>Nossos Serviços</h2>
         <ul>
+            <li>Georreferenciamento com GNSS de precisão</li>
             <li>Mapeamento com Drones</li>
-            <li>Processamento de Imagens de Satélite</li>
-            <li>Análise de Uso e Ocupação do Solo</li>
+            <li>Processamento de Imagens de Sensoriamento Remoto</li>
+            <li>Cadastramento INCRA e CAR</li>
+            <li>Geoprocessamento de Dados Espaciais e Formulação de Mapas</li>
+            <li>Análise de Dados Espaciais</li>
+        </ul>
+
+        <h3>Tecnologias Utilizadas</h3>
+        <p>QGIS, ArcGIS, Google Earth Engine, Python, R, PostGIS</p>
+    </section>
+
+    <section id="quem-somos">
+        <h2>Quem Somos</h2>
+        <p>A Harpia Geoprocessamento é uma empresa brasileira especializada em soluções geoespaciais aplicadas ao cadastro rural, meio ambiente e agricultura.</p>
+
+        <h3>Missão</h3>
+        <p>Fornecer soluções espaciais precisas que impulsionem decisões estratégicas e sustentáveis.</p>
+
+        <h3>Visão</h3>
+        <p>Ser referência nacional em inovação geoespacial até 2030.</p>
+
+        <h3>Valores</h3>
+        <ul>
+            <li>Inovação</li>
+            <li>Transparência</li>
+            <li>Comprometimento técnico</li>
+            <li>Sustentabilidade</li>
+        </ul>
+
+        <h3>Equipe Técnica</h3>
+        <div class="equipe">
+            <div class="membro">
+                <img src="img/maria.jpg" alt="Maria Silva">
+                <h4>Maria Silva</h4>
+                <p>Especialista em Sensoriamento Remoto | MSc em Geografia</p>
+            </div>
+            <div class="membro">
+                <img src="img/jose.jpg" alt="José Souza">
+                <h4>José Souza</h4>
+                <p>Analista de Geoprocessamento | Eng. Ambiental</p>
+            </div>
+        </div>
+
+        <h3>Parceiros e Clientes</h3>
+        <ul>
+            <li>Prefeitura de X</li>
+            <li>Empresa AgroTech Y</li>
+            <li>Instituto Ambiental Z</li>
         </ul>
     </section>
 
-    <section id="sobre">
-        <h2>Sobre Nós</h2>
-        <p>A Harpia Geoprocessamento é uma empresa brasileira especializada em soluções geoespaciais aplicadas ao meio ambiente, agricultura e urbanismo.</p>
+    <section id="portfolio">
+        <h2>Projetos e Portfólio</h2>
+        <div class="projetos">
+            <div class="projeto">
+                <h4>Mapeamento Ambiental na Bacia do Rio X</h4>
+                <p>Uso de imagens de satélite para análise de uso do solo em área protegida.</p>
+                <a href="#">Ver mapa interativo</a>
+            </div>
+            <div class="projeto">
+                <h4>Gestão Territorial com SIG personalizado</h4>
+                <p>Implantação de sistema de visualização geográfica para prefeituras.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog Técnico</h2>
+        <ul>
+            <li><a href="#">O que é Georreferenciamento?</a></li>
+            <li><a href="#">Fundamentos do Geoprocessamento</a></li>
+            <li><a href="#">Introdução ao Sensoriamento Remoto</a></li>
+            <li><a href="#">Análise Espacial com Python e R</a></li>
+            <li><a href="#">O poder da Inteligência Geográfica</a></li>
+        </ul>
     </section>
 
     <section id="contato">
         <h2>Contato</h2>
-        <p>Email: contato@harpiageoprocessamento.com.br</p>
-        <p>WhatsApp: (00) 00000-0000</p>
+        <form action="mailto:harpiageoprocessamento@gmail.com" method="post" enctype="text/plain">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Ou fale diretamente pelo <a href="https://wa.me/5519991964901" target="_blank">WhatsApp</a></p>
     </section>
 
     <footer>
