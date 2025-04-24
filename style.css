@@ -9,6 +9,7 @@ body {
     padding: 0;
     background: #f2f2f2;
     color: #333;
+    padding-top: 120px; /* espaço para o header fixo */
 }
 
 header {
