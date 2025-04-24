@@ -87,3 +87,32 @@ nav a.active {
     border-bottom: 2px solid #80cbc4;
     color: #80cbc4;
 }
+
+.redes-sociais {
+    background: #e0f7fa;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.redes-sociais h2 {
+    margin-bottom: 10px;
+}
+
+.redes-sociais ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #004d40;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.redes-sociais i {
+    margin-right: 8px;
+}
